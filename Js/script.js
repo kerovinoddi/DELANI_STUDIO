@@ -1,10 +1,12 @@
+
 <button onclick="myFunction()">click</button>
 
-<script>
+
 function myFunction() {
   var x = document.createElement("VIDEO");
 
   if (x.canPlayType("video/mp4")) {
+
     x.setAttribute("src","movie.mp4");
   } else {
     x.setAttribute("src","movie.ogg");
@@ -15,4 +17,4 @@ function myFunction() {
   x.setAttribute("controls", "controls");
   document.body.appendChild(x);
 }
-</script>
+
