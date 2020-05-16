@@ -1,0 +1,14 @@
+body{
+    font-style: normal;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.row1{
+    text-align: center;  color: ghostwhite;
+    background-image: url(h_img.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   padding: 20px;
+   margin: auto; 
+}
