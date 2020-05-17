@@ -15,6 +15,11 @@ body{
 #about{
     padding-left: 40px;
 }
+.container-1{
+background-position: center;
+background-attachment: fixed;
+
+}
 .contact{
     background-image: url('assets/backgrounds/c_image.jpg');
     background-size: cover;
@@ -22,4 +27,7 @@ body{
 }
 form{
     position:center;
+}
+p{
+    text-align: center;
 }
