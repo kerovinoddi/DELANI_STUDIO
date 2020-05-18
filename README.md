@@ -1,4 +1,4 @@
-#DELANI_STUDIO
+# DELANI_STUDIO
 
 Welcome to Delani Studio
 
@@ -15,10 +15,9 @@ This is the best site where you can get to know what kind of services we offer o
 
 * HTML
 * JS
-*Animate.css
+* Animate.css
 * CSS
-*jQuery
-
+* jQuery
 
 ## Support and contact details
 

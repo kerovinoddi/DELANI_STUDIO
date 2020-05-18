@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow-x: hidden;
+}
+.intro{
+    background-image: url(assets/backgrounds/h_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 400px;
+    color: white;
+    padding-top: 100px
+}
+.contact{
+    background-image: url(assets/backgrounds/c_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+#service{
+    background-image: url(assets/backgrounds/s_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+    padding-top: 200px;
+    color: white;
+    height: 450px;
+   
+}
+#par1,
+#par2,
+#par3 {
+    display: none;
+    left: 40%;
+}
+.onTop {
+    position: absolute;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.699);
+    opacity: 0;
+    height: 100%;
+   
+
+}
+
+.onTop-text {
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    top: 50%;
+    position: absolute;
+    text-align: center;
+    left: 20%;
+    border: 2px blue solid;
+    box-sizing: border-box;
+
+
+}
+
+h1 {
+    font-size: 2em;
+    font-family: cursive;
+    padding: 6px;
+    font-weight: bold;
+}
+.foot{
+    margin-left: 200px;
+}
+.form-cont input {
+    background: transparent;
+}
+
+.form-cont textarea {
+    background: none;
+
+}
